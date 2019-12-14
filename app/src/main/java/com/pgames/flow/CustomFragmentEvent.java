@@ -7,7 +7,7 @@ public class CustomFragmentEvent {
     int id;
 
     public CustomFragmentEvent(){
-    //Default constructor used in EventBus
+   //EventBus Default Custome class constructor
     }
     public CustomFragmentEvent(Fragment fragment, int id) {
         this.fragment = fragment;
