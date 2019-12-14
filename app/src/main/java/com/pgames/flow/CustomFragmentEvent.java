@@ -7,7 +7,7 @@ public class CustomFragmentEvent {
     int id;
 
     public CustomFragmentEvent(){
-
+        //This is my change
     }
     public CustomFragmentEvent(Fragment fragment, int id) {
         this.fragment = fragment;
