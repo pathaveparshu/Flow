@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Districts">
+        <item>Ahmednagar</item>
+        <item>Pune</item>
+    </string-array>
+
+    <string-array name="Taluka">
+        <item>Akole</item>
+        <item>Sangamaner</item>
+    </string-array>
+
+    <string-array name="Goan">
+        <item>Kalas Kh</item>
+        <item>Kumbephal</item>
+        <item>Nimgoan</item>
+    </string-array>
+    <string-array name="userType">
+        <item>Employer</item>
+        <item>Job Seeker</item>
+    </string-array>
+    <string-array name="skill_Requirement">
+        <item>Barbor</item>
+    </string-array>
+</resources>

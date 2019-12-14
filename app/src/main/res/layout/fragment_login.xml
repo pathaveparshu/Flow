@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.Login"
+    style="@style/pageBackground">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+        <EditText
+            android:id="@+id/mobile_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/backgroundtxt"
+            android:fontFamily="sans-serif-black"
+            android:inputType="phone"
+            android:maxLength="13"
+            android:layout_marginTop="130dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:hint="Mobile No"/>
+
+        <EditText
+            android:id="@+id/otp_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/mobile_input"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/backgroundtxt"
+            android:ems="10"
+            android:maxLength="6"
+            android:fontFamily="sans-serif-black"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:hint="OTP"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/start_otp_process"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_alignTop="@id/otp_input"
+            android:layout_marginTop="90dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_background"
+            android:text="Get OTP"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+</FrameLayout>

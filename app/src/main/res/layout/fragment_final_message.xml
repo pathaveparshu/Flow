@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.register.finalMessage"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundfinalmsg">
+
+    <!-- TODO: Update blank fragment layout -->
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:text="Successfully\nRegistered"
+    android:textSize="40dp"
+    android:fontFamily="sans-serif-black"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    android:layout_marginTop="120dp"
+    />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/sucess_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/completion_mark"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        />
+
+</LinearLayout>
+
+</LinearLayout>

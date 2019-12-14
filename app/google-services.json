@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "806888805429",
+    "firebase_url": "https://flowempowerment.firebaseio.com",
+    "project_id": "flowempowerment",
+    "storage_bucket": "flowempowerment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806888805429:android:72f9307107ef0506860d7c",
+        "android_client_info": {
+          "package_name": "com.pgames.flow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806888805429-3np9jo2s1mq71m9kkq93sut17rrj6v66.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pgames.flow",
+            "certificate_hash": "79e2af7b5e8c7e532ea1e459ee49beef7bab44a7"
+          }
+        },
+        {
+          "client_id": "806888805429-amkckjamajh0r0p7negb3hgmsbm6aefk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHlEN90Z2Js5m0RLXucO5GkL1WbF1dajg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806888805429-amkckjamajh0r0p7negb3hgmsbm6aefk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

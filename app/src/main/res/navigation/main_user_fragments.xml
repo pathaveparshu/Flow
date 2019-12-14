@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_user_fragments"
+    app:startDestination="@+id/fragment_splash">
+
+    <fragment
+        android:id="@+id/fragment_splash"
+        android:name="com.pgames.flow.ui.splash.splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_fragment_splash_to_fragment_login"
+            app:destination="@id/fragment_login" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_login"
+        android:name="com.pgames.flow.ui.login.Login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_fragment_login_to_fragment_register_details"
+            app:destination="@id/fragment_register_details" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_register_details"
+        android:name="com.pgames.flow.ui.register.RegisterDetails"
+        tools:layout="@layout/fragment_register_details" >
+        <action
+            android:id="@+id/action_fragment_register_details_to_fragment_final_register"
+            app:destination="@id/fragment_final_register" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_final_register"
+        android:name="com.pgames.flow.ui.register.FinalRegister"
+        tools:layout="@layout/fragment_final_register" >
+        <action
+            android:id="@+id/action_fragment_final_register_to_fragment_final_message"
+            app:destination="@id/fragment_final_message" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_final_message"
+        android:name="com.pgames.flow.ui.register.finalMessage"
+        tools:layout="@layout/fragment_final_message" />
+    <fragment
+        android:id="@+id/fragment_internet"
+        android:name="com.pgames.flow.noInternet"
+        tools:layout="@layout/fragment_no_internet"/>
+
+
+</navigation>
