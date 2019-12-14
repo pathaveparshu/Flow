@@ -9,6 +9,7 @@ public class CustomFragmentEvent {
     public CustomFragmentEvent(){
         //CustomeFragment is EventBus class
         //Changes make sense
+
     }
     public CustomFragmentEvent(Fragment fragment, int id) {
         this.fragment = fragment;
